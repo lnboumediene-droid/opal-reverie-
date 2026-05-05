@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> All Product - Opal Reverie</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+</head>
+<body>
+
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="/images site/logo fr.png" width="250px"></a>
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a  href="index.html">Home</a></li>
+                <li><a  href="procduct.html">Products</a></li>
+                <li><a  href="">About</a></li>
+                <li><a  href="">Contact</a></li>
+                <li><a  href="account.html">Account</a></li>
+            </ul>
+        </nav>
+        <a href="cart.html"><img src="/images site/logo-cart.png" width="30px" height="30px"></a>
+        <img src="/images site/logo-menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+
+    </div>
+    </div>
+
+
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="/images site/seal plush.jpg" width="100%" id="product-img">
+            </div>
+            <div class="col-2">
+                <P>Home / Plush/ Seal Plush</P>
+                <h1>Seal Plush</h1>
+                <h4>$30.00</h4>
+                <input type="number" value="1">
+                <a href="" class="btn">Add To Cart</a>
+
+                <h3>Product Details</h3>
+                <br>
+                <p>Our blob seal pillow is made using polyester polyurethane blend along with a 100% polyester cover that gives it the super stretchy, soft, and realistic seal look. The realistic seal pillow measures 17.3 inches long x 9.1 inches wide x 7.5 inches tall.</p>
+            </div>
+        </div>
+    </div>
+
+
+        <div class="small-container">
+            <div class="row row-2">
+                <h2>Related Products</h2>
+                <p>View More</p>
+            </div>
+        </div>
+
+        <div class="small-container">
+
+            <div class="row">
+                <div class="col-4">
+                    <img src="/images site/télécharger (21).jpg">
+                    <h4>Sumikkogurashi StrawberryShortcake Plush 35cm</h4>
+                    <p>$50.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="/images site/télécharger (22).jpg">
+                    <h4>Chikawa Plush 30cm</h4>
+                    <p>$30.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="/images site/télécharger (30).jpg">
+                    <h4>Spot The Dog Plush 20cm</h4>
+                    <p>$40.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="/images site/dog stuffed animal png.jpg">
+                    <h4>Brown Teckle Dog Plush 25cm</h4>
+                    <p>$35.00</p>
+                </div>
+            </div>
+
+        </div>
+        
+
+       <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android  and IOS mobile phone.</p>
+                </div>
+                 <div class="footer-col-2">
+                    <img src="/images site/logo fr 1.png">
+                    <p>You don't just shop for a toy, you shop for a life-long companion</p>
+                </div>
+                 <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow  Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2026 - Efrei School</p>
+        </div>
+       </div>
+
+       <script>
+
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight = "200px";
+                }
+            else
+                {
+                    MenuItems.style.maxHeight = "0px";
+                }
+        }
+       </script>
+
+
+
+
+</body>
+</html>
